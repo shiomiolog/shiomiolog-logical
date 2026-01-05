@@ -11,7 +11,7 @@
           <NuxtLink v-for="item in menuItems" :key="item.path" :to="item.path" class="nav-link" active-class="active-link">
             {{ item.name }}
           </NuxtLink>
-          <a href="https://shioneko.mio" class="portal-btn">Portal ↗</a>
+          <a href="https://shiomiomeow.com" class="portal-btn">Portal ↗</a>
         </nav>
 
         <button 
