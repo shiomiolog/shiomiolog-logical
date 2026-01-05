@@ -3,7 +3,7 @@ defineProps<{ processes: any[] }>()
 </script>
 
 <template>
-  <section id="processes" class="py-12 px-6 bg-slate-900 text-white">
+  <section id="processes" class="py-12 px-6 bg-slate-800 text-white">
     <div class="max-w-6xl mx-auto">
       <div class="flex items-center gap-2 mb-10">
         <span class="w-2 h-2 bg-cyan-400 rounded-full animate-ping"></span>
@@ -17,7 +17,7 @@ defineProps<{ processes: any[] }>()
               <h4 class="font-black text-slate-200 text-sm uppercase tracking-tight">{{ proc.title }}</h4>
               <span :class="['text-[9px] px-2 py-0.5 rounded font-bold uppercase', proc.statusClass]">{{ proc.status }}</span>
             </div>
-            <p class="text-[10px] text-slate-500 font-mono">{{ proc.detail }}</p>
+            <p class="text-[16px] text-slate-500 font-mono">{{ proc.detail }}</p>
           </div>
         </div>
       </div>

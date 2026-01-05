@@ -22,7 +22,7 @@
         </p>
         <p class="text-[10px] text-slate-400 font-bold uppercase tracking-widest">
           ※送信前に 
-          <NuxtLink to="/guidelines" class="text-blue-600 underline underline-offset-2 hover:text-blue-400 transition-colors">プライバシーポリシー</NuxtLink> 
+          <NuxtLink to="/guidelines#privacy" class="text-blue-600 underline underline-offset-2 hover:text-blue-400 transition-colors">プライバシーポリシー</NuxtLink> 
           をご確認ください。
         </p>
       </div>

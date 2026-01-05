@@ -14,7 +14,7 @@ defineProps<{ specs: any }>()
           <p class="text-[10px] font-bold text-slate-400 uppercase tracking-[0.3em] mb-6 flex items-center gap-2">
             <span class="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></span> Three-View Drawing
           </p>
-          <img src="/avatar-orthographic.webp" alt="三面図" class="w-full h-auto rounded-xl" />
+          <img src="/images/avatar-orthographic.webp" alt="三面図" class="w-full h-auto rounded-xl" />
         </div>
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -32,7 +32,7 @@ defineProps<{ specs: any }>()
           <div class="space-y-3">
             <a v-for="asset in specs.assets" :key="asset.shop" :href="asset.url" target="_blank" class="flex items-center justify-between p-3 bg-slate-50 rounded-xl hover:bg-blue-600 group transition-all">
               <div class="flex flex-col">
-                <span class="text-[9px] font-bold text-blue-500 group-hover:text-blue-100 uppercase tracking-widest">{{ asset.item }}</span>
+                <span class="text-[16px] font-bold text-blue-500 group-hover:text-blue-100 uppercase tracking-widest">{{ asset.item }}</span>
                 <span class="text-sm font-black text-slate-700 group-hover:text-white">{{ asset.shop }}</span>
               </div>
               <span class="text-slate-300 group-hover:text-white group-hover:translate-x-1 transition-transform">↗</span>

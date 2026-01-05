@@ -1,13 +1,18 @@
 <template>
   <div class="relative w-full min-h-screen text-slate-600 font-sans bg-slate-50/30">
-    
-    <div class="fixed top-0 right-0 w-[600px] h-[600px] bg-blue-100/20 blur-[120px] rounded-full pointer-events-none z-0"></div>
-    <div class="fixed bottom-0 left-0 w-[600px] h-[600px] bg-cyan-50/40 blur-[120px] rounded-full pointer-events-none z-0"></div>
+
+    <div
+      class="fixed top-0 right-0 w-[600px] h-[600px] bg-blue-100/20 blur-[120px] rounded-full pointer-events-none z-0">
+    </div>
+    <div
+      class="fixed bottom-0 left-0 w-[600px] h-[600px] bg-cyan-50/40 blur-[120px] rounded-full pointer-events-none z-0">
+    </div>
 
     <div class="relative z-10 max-w-5xl mx-auto px-6 py-20">
-      
+
       <header class="mb-16 text-center">
-        <div class="inline-block mb-4 text-blue-600 border border-blue-200 bg-blue-50 px-4 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase">
+        <div
+          class="inline-block mb-4 text-blue-600 border border-blue-200 bg-blue-50 px-4 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase">
           Policy & Terms
         </div>
         <h1 class="text-4xl md:text-6xl font-black italic text-slate-900 mb-4 tracking-tighter uppercase">
@@ -17,8 +22,9 @@
       </header>
 
       <div class="space-y-12">
-        
-        <div class="bg-white border border-slate-100 rounded-[2.5rem] p-8 md:p-16 shadow-xl shadow-blue-900/5 backdrop-blur-md">
+
+        <div
+          class="bg-white border border-slate-100 rounded-[2.5rem] p-8 md:p-16 shadow-xl shadow-blue-900/5 backdrop-blur-md">
           <h2 class="text-xl md:text-2xl font-black text-center text-slate-800 mb-12 pb-8 border-b border-slate-100">
             汐猫みお 二次創作等に関するガイドライン
           </h2>
@@ -30,7 +36,9 @@
                 （目的）
               </h3>
               <div class="text-sm md:text-base leading-relaxed space-y-4 text-slate-500">
-                <p>本ガイドラインは、汐猫みお（以下「当方」といいます。）のVTuberコンテンツ（以下「本コンテンツ」といいます。）をより多くの利用者に知っていただき、また、本コンテンツを利用した二次創作活動が活発に行われ、多種多様な作品が創作されることを奨励し、もって文化及び本コンテンツの発展に寄与することを目的として制定するものです。</p>
+                <p>
+                  本ガイドラインは、汐猫みお（以下「当方」といいます。）のVTuberコンテンツ（以下「本コンテンツ」といいます。）をより多くの利用者に知っていただき、また、本コンテンツを利用した二次創作活動が活発に行われ、多種多様な作品が創作されることを奨励し、もって文化及び本コンテンツの発展に寄与することを目的として制定するものです。
+                </p>
                 <p>当方は、利用者の本コンテンツの利用が、本ガイドラインに従ったものであり、かつ、法令や公序良俗等に違反しない内容及び方法である限り、著作権等の権利を行使しません。</p>
                 <p>なお、当方は、個別的なルールを別途定める場合があります。その場合、利用者は、本ガイドライン及び別途定める個別的なルールに従って、本コンテンツを利用するものとします。</p>
               </div>
@@ -41,7 +49,7 @@
                 <span class="text-blue-300 text-xs">#</span>
                 {{ art.title }}
               </h3>
-              
+
               <div class="pl-2 md:pl-6 space-y-6 text-sm md:text-base leading-relaxed text-slate-500">
                 <ol v-if="art.list" class="list-decimal list-outside ml-4 space-y-4">
                   <li v-for="(item, i) in art.list" :key="i">
@@ -60,28 +68,37 @@
           </div>
         </div>
 
-        <div class="bg-white border border-slate-100 rounded-[2.5rem] p-8 md:p-16 shadow-xl shadow-blue-900/5 backdrop-blur-md">
-          <h2 class="text-xl md:text-2xl font-black text-slate-800 mb-12 flex items-center gap-3 italic">
-            <span class="px-3 py-1 bg-slate-900 text-white text-[10px] rounded not-italic tracking-widest">PRIVACY</span>
-            プライバシーポリシー
-          </h2>
+        <div id="privacy" class="mt-30 pt-8">
+          <div
+            class="bg-white border border-slate-100 rounded-[2.5rem] p-8 md:p-16 shadow-xl shadow-blue-900/5 backdrop-blur-md">
+            <h2 class="text-xl md:text-2xl font-black text-slate-800 mb-12 flex items-center gap-3 italic">
+              <span
+                class="px-3 py-1 bg-slate-900 text-white text-[10px] rounded not-italic tracking-widest">PRIVACY</span>
+              プライバシーポリシー
+            </h2>
 
-          <div class="space-y-12 text-sm md:text-base leading-relaxed text-slate-500">
-            <p>汐猫みお（以下、「当方」といいます。）は、当方の提供するウェブサイト（以下、「本サイト」といいます。）における、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー（以下、「本ポリシー」といいます。）を定めます。</p>
+            <div class="space-y-12 text-sm md:text-base leading-relaxed text-slate-500">
+              <p>
+                汐猫みお（以下、「当方」といいます。）は、当方の提供するウェブサイト（以下、「本サイト」といいます。）における、ユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー（以下、「本ポリシー」といいます。）を定めます。
+              </p>
 
-            <section v-for="p in fullPrivacy" :key="p.title" class="space-y-4">
-              <h3 class="font-bold text-slate-800 border-l-4 border-slate-900 pl-4">{{ p.title }}</h3>
-              <p v-if="p.content" v-html="p.content"></p>
-              <ol v-if="p.list" class="list-decimal list-outside ml-6 space-y-2">
-                <li v-for="li in p.list" :key="li" v-html="li"></li>
-              </ol>
-            </section>
+              <section v-for="p in fullPrivacy" :key="p.title" class="space-y-4">
+                <h3 class="font-bold text-slate-800 border-l-4 border-slate-900 pl-4">{{ p.title }}</h3>
+                <p v-if="p.content" v-html="p.content"></p>
+                <ol v-if="p.list" class="list-decimal list-outside ml-6 space-y-2">
+                  <li v-for="li in p.list" :key="li" v-html="li"></li>
+                </ol>
+              </section>
+            </div>
           </div>
         </div>
 
         <div class="text-center pt-8">
-          <NuxtLink to="/" class="group inline-flex items-center gap-3 bg-slate-900 text-white px-10 py-4 rounded-full hover:bg-blue-600 transition-all duration-500 shadow-lg hover:shadow-blue-200">
-            <span class="text-[10px] font-black uppercase tracking-[0.3em] group-hover:-translate-x-1 transition-transform italic">Return to Home</span>
+          <NuxtLink to="/"
+            class="group inline-flex items-center gap-3 bg-slate-900 text-white px-10 py-4 rounded-full hover:bg-blue-600 transition-all duration-500 shadow-lg hover:shadow-blue-200">
+            <span
+              class="text-[10px] font-black uppercase tracking-[0.3em] group-hover:-translate-x-1 transition-transform italic">Return
+              to Home</span>
           </NuxtLink>
         </div>
 
@@ -93,7 +110,7 @@
 <script setup lang="ts">
 interface GuidelineItem {
   text: string;
-  subList?: string[]; 
+  subList?: string[];
   dotList?: string[];
 }
 
@@ -108,7 +125,7 @@ const fullGuidelines: GuidelineArticle[] = [
     title: '第1条（二次創作に関する基本原則）',
     list: [
       { text: '二次創作活動は、<strong class="text-slate-900">利用者が個人的かつ非営利の目的で</strong>行う場合に限り許可されます。' },
-      { 
+      {
         text: '以下のいずれかに該当する、またはそのおそれのある創作活動は、目的を問わず禁止します。',
         subList: [
           '本コンテンツをそのまま利用するもの、または単なる改変の域を出ない等、創作性に欠ける利用であるもの。',
@@ -154,7 +171,7 @@ const fullGuidelines: GuidelineArticle[] = [
     title: '第5条（応援広告および二次創作イベントに関する特則）',
     list: [
       { text: '応援広告や二次創作イベントを企画・実施することができます。' },
-      { 
+      {
         text: 'ファン活動を実施する際は、以下の事項を遵守してください。',
         dotList: [
           '企画内容には非公式であることを明記すること。',

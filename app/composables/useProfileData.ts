@@ -1,14 +1,14 @@
 export const useProfileData = () => {
     const profileTags = [
         { label: 'Fan Mark', value: '🐾💎' },
-        { label: 'Fan Name', value: '汐猫観測隊' },
-        { label: 'Stream Tag', value: '#汐猫LIVE' },
-        { label: 'Art Tag', value: '#みおあーと' },
+        { label: 'Fan Name', value: 'パケットキャッツ / Packet Cats' },
+        { label: 'Stream Tag', value: '#shiomio_Live_Debug' },
+        { label: 'Art Tag', value: '#shiomio_arts_log' },
     ]
 
     const socialLinks = [
         { name: 'YouTube', handle: '@shionemio', url: 'https://www.youtube.com/@shionemio', icon: '📺' },
-        { name: 'X / Twitter', handle: '@mio_shioneko', url: '#', icon: '/icons/x-logo.png' },
+        { name: 'X / Twitter', handle: '@shiomiomeow', url: 'http', icon: '/icons/x-logo.png' },
         { name: 'Mond', handle: 'Send Questions', url: 'https://mond.how/ja/shiomiomeow', icon: '/icons/mond-logo.png' },
     ]
 
@@ -16,15 +16,15 @@ export const useProfileData = () => {
         { label: '名前 / Name', value: '汐猫みお (しおね みお)' },
         { label: '職業 / Job', value: 'Virtual YouTuber / Programmer' },
         { label: '出身地 / Birthplace', value: '千葉県' },
-        { label: '専門領域 / Domain', value: '情報科学全般（主に低レイヤー・セキュリティ・ソフトウェア）' },
         { label: '誕生日 / Birthday', value: '5月14日' },
-        { label: '資格 / Cert', value: 'ITパスポート試験 / 情報セキュリティマネジメント試験' },
         { label: '言語 / Language', value: 'Japanese / English(Basic)' },
         { label: '生息地 / Habitat', value: 'インターネットの海' },
+        { label: '資格 / Cert', value: 'ITパスポート試験 / 情報セキュリティマネジメント試験' },
+        { label: '専門領域 / Domain', value: '情報科学全般（主に低レイヤー・セキュリティ・ソフトウェア）' },
     ]
 
     const creators = [
-        { role: 'キャラクターデザイン', name: '汐猫みお (@username)' },
+        { role: 'キャラクターデザイン', name: '汐猫みお (@shoimiomeow)' },
     ]
 
     const modelSpecs = {

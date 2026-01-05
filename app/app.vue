@@ -1,5 +1,9 @@
 <template>
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <div class="bg-white min-h-screen">
+    <AppLoading />
+    <NuxtLayout>
+      <NuxtPage />
+      <AppBackToTop />
+    </NuxtLayout>
+  </div>
 </template>

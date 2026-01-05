@@ -29,9 +29,9 @@ useSeoMeta({
   ogTitle: '汐猫みお | Logical Mode Official',
   description: '論理的に遊び、エンターテインメントを構築する。配信という舞台で情報の深淵を読み解く、青い世界の住人です。',
   ogDescription: '論理的に遊び、エンターテインメントを構築する。配信という舞台で情報の深淵を読み解く、青い世界の住人です。',
-  ogImage: '/ogp-image.png', // 公開後に表示させたい画像（1200x630推奨）
+  ogImage: '/ogp-image.png', // 1200x630推奨
   twitterCard: 'summary_large_image',
-  twitterSite: '@mio_shioneko',
-  twitterCreator: '@mio_shioneko',
+  twitterSite: '@shiomiomeow',
+  twitterCreator: '@shiomiomeow',
 })
 </script>

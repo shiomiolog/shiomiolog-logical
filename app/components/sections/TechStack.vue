@@ -11,7 +11,7 @@ defineProps<{ stacks: any[] }>()
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div v-for="stack in stacks" :key="stack.category" class="bg-slate-900 p-6 rounded-2xl border border-slate-800">
-          <p class="text-[10px] font-bold text-blue-400 uppercase mb-5 tracking-widest font-mono">
+          <p class="text-[14px] font-bold text-blue-400 uppercase mb-5 tracking-widest font-mono">
             &lt;{{ stack.category }} /&gt;
           </p>
           <div class="flex flex-wrap gap-2">
