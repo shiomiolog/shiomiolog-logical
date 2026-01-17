@@ -7,9 +7,9 @@ export const useProfileData = () => {
     ]
 
     const socialLinks = [
-        { name: 'YouTube', handle: '@shionemio', url: 'https://www.youtube.com/@shionemio', icon: '📺' },
-        { name: 'X / Twitter', handle: '@shiomiomeow', url: 'http', icon: '/icons/x-logo.png' },
-        { name: 'Mond', handle: 'Send Questions', url: 'https://mond.how/ja/shiomiomeow', icon: '/icons/mond-logo.png' },
+        { name: 'YouTube', handle: '@shiomiolog', url: 'https://www.youtube.com/@shiomiolog', icon: '📺' },
+        { name: 'X / Twitter', handle: '@shiomiolog', url: 'https://x.com/shiomiolog', icon: '/icons/x-logo.png' },
+        { name: 'Mond', handle: 'Send Questions', url: 'https://mond.how/ja/shiomiolog', icon: '/icons/mond-logo.png' },
     ]
 
     const fullProfile = [
@@ -24,7 +24,7 @@ export const useProfileData = () => {
     ]
 
     const creators = [
-        { role: 'キャラクターデザイン', name: '汐猫みお (@shoimiomeow)' },
+        { role: 'キャラクターデザイン', name: '汐猫みお (@shoimiolog)' },
     ]
 
     const modelSpecs = {

@@ -26,7 +26,7 @@ const handleImageClick = () => {
           
           <img 
             src="/images/avatar.png" 
-            alt="汐音みお" 
+            alt="汐猫みお" 
             class="relative rounded-3xl shadow-2xl w-full h-full object-cover border-8 border-white z-10" 
           />
 
@@ -52,8 +52,8 @@ const handleImageClick = () => {
       <div class="flex-1 space-y-8 order-1 lg:order-2">
         <div class="space-y-2">
           <h2 class="text-xl font-black italic text-blue-600 tracking-widest">LOGICAL MODE</h2>
-          <h1 class="text-6xl md:text-7xl font-black italic text-slate-900 tracking-tighter">汐音みお</h1>
-          <p class="text-slate-400 font-bold tracking-[0.2em] uppercase">Shinone Mio</p>
+          <h1 class="text-6xl md:text-7xl font-black italic text-slate-900 tracking-tighter">汐猫みお</h1>
+          <p class="text-slate-400 font-bold tracking-[0.2em] uppercase">Shione Mio</p>
         </div>
 
         <div class="grid grid-cols-2 gap-4">

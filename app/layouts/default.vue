@@ -9,7 +9,7 @@
           </span>
 
           <span class="font-black italic text-blue-600 tracking-tighter uppercase text-2xl leading-none">
-            Shioneko Mio
+            Shione Mio
           </span>
         </NuxtLink>
 
@@ -18,7 +18,7 @@
             active-class="active-link">
             {{ item.name }}
           </NuxtLink>
-          <a href="https://shiomiomeow.com" class="portal-btn">Portal ↗</a>
+          <a href="https://shiomiolog.com" class="portal-btn">Portal ↗</a>
         </nav>
 
         <button @click="isMenuOpen = !isMenuOpen"
@@ -43,7 +43,7 @@
             @click="isMenuOpen = false">
             {{ item.name }}
           </NuxtLink>
-          <a href="https://shioneko.mio" class="text-blue-400 font-bold uppercase tracking-[0.3em] text-sm mt-4">
+          <a href="https://shiomiolog.com" class="text-blue-400 font-bold uppercase tracking-[0.3em] text-sm mt-4">
             Portal Site ↗
           </a>
         </nav>

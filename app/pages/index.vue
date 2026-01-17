@@ -31,7 +31,7 @@ useSeoMeta({
   ogDescription: '論理的に遊び、エンターテインメントを構築する。配信という舞台で情報の深淵を読み解く、青い世界の住人です。',
   ogImage: '/ogp-image.png', // 1200x630推奨
   twitterCard: 'summary_large_image',
-  twitterSite: '@shiomiomeow',
-  twitterCreator: '@shiomiomeow',
+  twitterSite: '@shiomiolog',
+  twitterCreator: '@shiomiolog',
 })
 </script>
